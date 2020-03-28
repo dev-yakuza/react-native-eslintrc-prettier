@@ -33,6 +33,7 @@ module.exports = {
     'no-empty-function': 'off',
     '@typescript-eslint/no-empty-function': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
+    'prettier/prettier': 'error',
   },
   settings: {
     react: {
