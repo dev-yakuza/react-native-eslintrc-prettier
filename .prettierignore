@@ -72,3 +72,6 @@ ios/fastlane/README.md
 .prettierignore
 ios/Podfile.lock
 *.pbxproj
+index.android.bundle
+*.plist
+*.gradle
