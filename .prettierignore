@@ -39,8 +39,6 @@ yarn-error.log
 buck-out/
 \.buckd/
 *.keystore
-!debug.keystore
-!dev-yakuza-release.keystore
 
 # fastlane
 #
@@ -69,6 +67,7 @@ ios/*.dSYM.zip
 android/fastlane/README.md
 ios/fastlane/README.md
 
+.gitignore
 .prettierignore
 ios/Podfile.lock
 ios/Podfile
