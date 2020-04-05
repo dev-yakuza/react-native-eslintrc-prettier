@@ -67,6 +67,7 @@ ios/*.dSYM.zip
 android/fastlane/README.md
 ios/fastlane/README.md
 
+*.png
 .gitignore
 .prettierignore
 ios/Podfile.lock

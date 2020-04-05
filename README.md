@@ -30,15 +30,15 @@ You can see the blog post about this repository.
     "scripts": {
         ...
         "lint": "eslint --ext .tsx --ext .ts src/",
-        "format": "prettier --check .",
+        "format": "prettier --check ./src",
         ...
     },
     "lint-staged": {
         "src/**/*.{ts,tsx}": [
-        "eslint --ext .tsx --ext .ts src/ --fix"
+            "eslint --ext .tsx --ext .ts src/ --fix"
         ],
         "src/*": [
-        "prettier --write ."
+            "prettier --write ./src"
         ]
     },
     "husky": {
@@ -95,15 +95,15 @@ npm run format
     "scripts": {
         ...
         "lint": "eslint --ext .tsx --ext .ts src/",
-        "format": "prettier --check .",
+        "format": "prettier --check ./src",
         ...
     },
     "lint-staged": {
         "src/**/*.{ts,tsx}": [
-        "eslint --ext .tsx --ext .ts src/ --fix"
+            "eslint --ext .tsx --ext .ts src/ --fix"
         ],
         "src/*": [
-        "prettier --write ."
+            "prettier --write ./src"
         ]
     },
     "husky": {
@@ -159,15 +159,15 @@ npm run format
     "scripts": {
         ...
         "lint": "eslint --ext .tsx --ext .ts src/",
-        "format": "prettier --check .",
+        "format": "prettier --check ./src",
         ...
     },
     "lint-staged": {
         "src/**/*.{ts,tsx}": [
-        "eslint --ext .tsx --ext .ts src/ --fix"
+            "eslint --ext .tsx --ext .ts src/ --fix"
         ],
         "src/*": [
-        "prettier --write ."
+            "prettier --write ./src"
         ]
     },
     "husky": {
