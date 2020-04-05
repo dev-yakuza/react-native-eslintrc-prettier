@@ -29,13 +29,13 @@ You can see the blog post about this repository.
     ...
     "scripts": {
         ...
-        "lint": "eslint ./src/**/*.tsx ./src/**/*.ts",
+        "lint": "eslint --ext .tsx --ext .ts src/",
         "format": "prettier --check .",
         ...
     },
     "lint-staged": {
         "src/**/*.{ts,tsx}": [
-        "eslint ./src/**/*.tsx ./src/**/*.ts --fix"
+        "eslint --ext .tsx --ext .ts src/ --fix"
         ],
         "src/*": [
         "prettier --write ."
@@ -94,13 +94,13 @@ npm run format
     ...
     "scripts": {
         ...
-        "lint": "eslint ./src/**/*.tsx ./src/**/*.ts",
+        "lint": "eslint --ext .tsx --ext .ts src/",
         "format": "prettier --check .",
         ...
     },
     "lint-staged": {
         "src/**/*.{ts,tsx}": [
-        "eslint ./src/**/*.tsx ./src/**/*.ts --fix"
+        "eslint --ext .tsx --ext .ts src/ --fix"
         ],
         "src/*": [
         "prettier --write ."
@@ -158,13 +158,13 @@ npm run format
     ...
     "scripts": {
         ...
-        "lint": "eslint ./src/**/*.tsx ./src/**/*.ts",
+        "lint": "eslint --ext .tsx --ext .ts src/",
         "format": "prettier --check .",
         ...
     },
     "lint-staged": {
         "src/**/*.{ts,tsx}": [
-        "eslint ./src/**/*.tsx ./src/**/*.ts --fix"
+        "eslint --ext .tsx --ext .ts src/ --fix"
         ],
         "src/*": [
         "prettier --write ."
