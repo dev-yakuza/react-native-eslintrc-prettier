@@ -37,8 +37,8 @@ You can see the blog post about this repository.
         "src/**/*.{ts,tsx}": [
             "eslint --ext .tsx --ext .ts src/ --fix"
         ],
-        "src/*": [
-            "prettier --write ./src"
+        "./src/**": [
+            "prettier --write ."
         ]
     },
     "husky": {
@@ -102,8 +102,8 @@ npm run format
         "src/**/*.{ts,tsx}": [
             "eslint --ext .tsx --ext .ts src/ --fix"
         ],
-        "src/*": [
-            "prettier --write ./src"
+        "./src/**": [
+            "prettier --write ."
         ]
     },
     "husky": {
@@ -166,8 +166,8 @@ npm run format
         "src/**/*.{ts,tsx}": [
             "eslint --ext .tsx --ext .ts src/ --fix"
         ],
-        "src/*": [
-            "prettier --write ./src"
+        "./src/**": [
+            "prettier --write ."
         ]
     },
     "husky": {
