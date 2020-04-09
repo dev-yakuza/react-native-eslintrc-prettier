@@ -10,7 +10,7 @@ This repository is about how to use ESLint, Prettier, Husky and lint-staged for 
 
 You can see the blog post about this repository.
 
-- [Use ESLint, Prettier like Pro on React Native](https://dev-yakuza.github.io/react-native/eslint-prettier-husky-lint-staged/)
+- [Use ESLint, Prettier like Pro on React Native](https://dev-yakuza.github.io/en/react-native/eslint-prettier-husky-lint-staged/)
 
 ### Prepare React Native Project
 
